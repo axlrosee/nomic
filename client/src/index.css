@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 1.5rem;
+}
+
+p {
+  color: whitesmoke;
+  margin: 1em 0 0;
+}
+
+article {
+  margin: 1em;
+  padding: 1em;
+  background-color: rgb(51, 83, 153);
+  /* background-color: #295dbe; */
+  color: whitesmoke;
+  border-radius: 15px;
+}
+
+h1 {
+  margin: 1rem;
+  color: whitesmoke;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.SearchBarContainer {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  color: #7e7e7e;
+  position: fixed;
+}
+
+.MainPageContainer {
+  margin-top: 120px;
+}
+
+.searchInputs {
+  margin: 30px 0;
+  /* margin-bottom: 30px; */
+  display: flex;
+}
+
+.search input {
+  border-radius: 20px;
+  /* border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  font-size: 18px;
+  padding: 15px;
+  height: 60px;
+  width: 600px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.dataResult {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  position: absolute;
+  left: 25;
+  right: 25;
+}
+
+select {
+  position: relative;
+  left: 50;
+  font-size: 18px;
+  height: 60px;
+  width: 130px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
