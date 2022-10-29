@@ -9,8 +9,8 @@ ENV PATH /client/node_modules/.bin:$PATH
 # install app dependencies
 COPY package.json ./
 COPY package-lock.json ./
-RUN yarn install 
-RUN yarn global adcc react-scripts@5.0.1
+RUN npm install 
+RUN npm install react-scripts@5.0.1 -g
 
 # add app
 COPY . ./
