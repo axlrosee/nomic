@@ -8,10 +8,10 @@ run:
     make fastapi & make react
 	
 start:
-	cd server && uvicorn main:app --reload & cd frondend && npm start
+	cd server && uvicorn main:app --reload & cd client && npm start
 
 install:
-    cd frondend && npm install & cd server && pip install fastapi && pip install "uvicorn[standard]" 
+    cd client && npm install & cd server && pip install fastapi && pip install "uvicorn[standard]" 
 
 
 
