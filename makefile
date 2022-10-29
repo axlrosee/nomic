@@ -11,7 +11,7 @@ start:
 	cd server && uvicorn main:app --reload & cd frondend && npm start
 
 install:
-    cd server && pip install fastapi && pip install "uvicorn[standard]" & cd frondend && yarn install
+    cd frondend && npm install & cd server && pip install fastapi && pip install "uvicorn[standard]" 
 
 
 
